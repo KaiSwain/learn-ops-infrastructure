@@ -4,7 +4,6 @@ Do not read, reference, or include in context any files matching these names.
 They are student exercise artifacts from previous weeks and are not part of any system being explored.
 
 - tech-stack-manual.md
-- tech-stack-ai.md
 - tech-stack-ai-prompts.md
 - system-map.md
 - system-map-ai.md
