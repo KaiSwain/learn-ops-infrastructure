@@ -1,9 +1,18 @@
-## Files to ignore
+## Files to exclude as answer sources
 
-Do not read, reference, or include in context any files matching these names.
-They are student exercise artifacts from previous weeks and are not part of any system being explored.
+These files are student exercise artifacts (write-ups and prompt logs) — not part of
+any system being explored. The goal is that answers about the system come from
+exploring the actual code, not from copying a previously written file.
+
+- If the student's current task is to create or update one of these specific files,
+  treat it like any normal file: read its existing content if useful, edit or append
+  to it, etc. Working on the file that IS the assignment is expected.
+- Do not open, read, or reference any *other* file on this list — even to compare,
+  cross-check, or supplement an answer. Never use another file on this list as a
+  shortcut instead of exploring the real code.
 
 - tech-stack-manual.md
+- tech-stack-ai.md
 - tech-stack-ai-prompts.md
 - system-map.md
 - system-map-ai.md
