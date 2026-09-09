@@ -1,5 +1,5 @@
-
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'fontSize': '20px'}, 'flowchart': {'nodeSpacing': 60, 'rankSpacing': 100}}}%%
 graph LR
     Client["React Client<br/>React 16 (CRA dev server)<br/>:3000"]
     Nginx["Nginx<br/>reverse proxy<br/>:80 / :443"]
