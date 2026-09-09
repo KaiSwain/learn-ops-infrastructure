@@ -1,6 +1,6 @@
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': {'fontSize': '18px'}, 'flowchart': {'nodeSpacing': 50, 'rankSpacing': 110}}}%%
-graph LR
+%%{init: {'theme': 'dark', 'themeVariables': {'fontSize': '18px'}, 'flowchart': {'nodeSpacing': 50, 'rankSpacing': 90}}}%%
+graph TB
     Client["React Client<br/>React 16 (CRA dev server)<br/>:3000"]
     Nginx["Nginx<br/>reverse proxy<br/>:80 / :443"]
     API["Django API<br/>Django + DRF<br/>:8000"]
