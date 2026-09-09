@@ -28,4 +28,7 @@ graph TB
     Prometheus -->|"HTTP scrape<br/>GET /metrics"| PGExporter
     PGExporter -->|"DB query<br/>(stats collector)"| DB
     Grafana -->|"HTTP query<br/>(PromQL datasource)"| Prometheus
+
+    classDef dbNode fill:#264653,stroke:#2a9d8f,stroke-width:2px,color:#ffffff
+    class DB,Valkey dbNode
 ```
